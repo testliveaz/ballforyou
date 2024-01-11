@@ -21,7 +21,7 @@ $(document).ready(() => {
     // });
 
     setTimeout(function () {
-        let targetLive = "clickaz";
+        let targetLive = "mirtlive1";
         connect(targetLive);
     }, 5000);
 
