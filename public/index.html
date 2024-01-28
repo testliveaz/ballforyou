@@ -26,15 +26,13 @@
     animation: backgroundChange1 20s infinite;
   }
 
-  #myCanvas {
-    /* animation: blink-animation 10s linear infinite; */
+ #myCanvas {
     display: block;
     margin: 50px auto 0;
     border: 1px solid #ddd;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    background-image: url('5.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: none; /* Arka plan resmi kaldırıldı */
+    background-color: transparent; /* Arka plan saydam yapıldı */
     border-radius: 10px;
     padding: 20px;
     transition: all 0.3s ease-in-out;
@@ -517,21 +515,7 @@
     // img2.src = "like.png";
     // img3.src = "heart.png";
     // img4.src = "share.png";
-    let currentIndex = 5; // Başlangıçta back11.gif kullanılıyor.
 
-
-    setInterval(function () {
-      let randomNumber = Math.floor(Math.random() * 26) + 1;
-
-      while (randomNumber === currentIndex) {
-        randomNumber = Math.floor(Math.random() * 26) + 1;
-      }
-
-      currentIndex = randomNumber;
-
-      let gifUrl =  randomNumber + '.gif';
-      document.getElementById('myCanvas').style.backgroundImage = "url('" + gifUrl + "')";
-    }, 60000);  // 60000 milisaniye, yani 1 dakika.
 
   </script>
 </body>
