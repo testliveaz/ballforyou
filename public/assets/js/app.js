@@ -21,7 +21,7 @@ $(document).ready(() => {
     // });
 
     setTimeout(function () {
-        let targetLive = "azbesdir";
+        let targetLive = "mirtlive1";
         connect(targetLive);
     }, 5000);
 
