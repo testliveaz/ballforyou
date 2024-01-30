@@ -21,7 +21,7 @@ $(document).ready(() => {
     // });
 
     setTimeout(function () {
-        let targetLive = "mirtlive1";
+        let targetLive = "gamefhon";
         connect(targetLive);
     }, 5000);
 
