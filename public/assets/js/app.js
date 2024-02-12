@@ -21,7 +21,7 @@ $(document).ready(() => {
     // });
 
     setTimeout(function () {
-        let targetLive = "ser_kerimoff";
+        let targetLive = "sofi_____25";
         connect(targetLive);
     }, 5000);
 
