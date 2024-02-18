@@ -3084,7 +3084,7 @@ connection.on('social', (data) => {
         if (data.displayType === "pm_mt_guidance_share") {
             for (let i = 0; i < iconList.length; i++) {
                 if (iconList[i].username === userName) {
-                    iconList[i].size += 3; // add 20 to each object's value property
+                    iconList[i].size += 0.5; // add 20 to each object's value property
                     let icons = document.getElementsByClassName('icon');
                     for (let j = 0; j < icons.length; j++) {
                         if (icons[j].src === iconList[i].imgurl) {
